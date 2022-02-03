@@ -1,0 +1,44 @@
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+* {
+  border: 1px solid #000;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.top-line {
+  height: 80px;
+}
+.logo {
+  margin: auto 0 auto 215px;
+}
+.navigation {
+  display: inline-block;
+  width: 294px;
+}
+.lincs {
+  display: inline-block;
+}
+.address > li {
+  display: inline;
+}
+.lincs > li {
+  display: inline;
+}
+
+.hero {
+  height: 600px;
+  background-color: #2f303a;
+}
+.spich {
+  text-align: center;
+  margin: auto;
+}
