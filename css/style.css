@@ -80,6 +80,7 @@ a {
   color: var(--hero-text-color);
 }
 .modal-btn {
+  border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -96,6 +97,7 @@ a {
   background-color: var(--accent-color);
 }
 .filter-btn {
+  border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
