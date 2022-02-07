@@ -122,7 +122,6 @@ a {
   color: var(--titl-text-color);
 }
 .descktription-feature {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -144,7 +143,7 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1/17;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--titl-text-color);
@@ -159,7 +158,6 @@ a {
 }
 .member-metier,
 .development-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -187,7 +185,6 @@ a {
 .contact-link,
 .map {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
