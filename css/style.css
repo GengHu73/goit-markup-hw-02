@@ -48,6 +48,9 @@ a {
   letter-spacing: 0.02em;
   color: var(--titl-text-color);
 }
+.selected {
+  color: var(--background-btn);
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -63,7 +66,7 @@ a {
 .contaсt-link:focus {
   color: var(--accent-color);
 }
-/* ============HERO============= */
+/* ============HERO/FILTERS============= */
 .hero {
   background-color: var(--background-hero);
 }
@@ -92,6 +95,23 @@ a {
 .modal-btn:focus {
   background-color: var(--accent-color);
 }
+.filter-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--titl-text-color);
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: var(--background-team);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--hero-text-color);
+}
 /* ======================FEATURE======================== */
 .title-feature {
   font-weight: 700;
@@ -117,7 +137,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--titl-text-color);
 }
-/* ======================TEAM=========================== */
+/* ======================TEAM/PROJECTS=========================== */
 .team {
   background-color: var(--background-team);
 }
@@ -129,18 +149,23 @@ a {
   letter-spacing: 0.03em;
   color: var(--titl-text-color);
 }
-.member-name {
+.member-name,
+.project-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--titl-text-color);
 }
-.member-metier {
+.member-metier,
+.development-type {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+}
+.development-type {
+  color: var(--text-color);
 }
 /* =======================FUTER=========================== */
 .footer {
